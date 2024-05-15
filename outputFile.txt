@@ -1,0 +1,2 @@
+Tthis is the first sentence,  this is the second sentence,  and this is the third sentence,
+Eeach sentence will be split into words,  and each word will be capitalized properly,
