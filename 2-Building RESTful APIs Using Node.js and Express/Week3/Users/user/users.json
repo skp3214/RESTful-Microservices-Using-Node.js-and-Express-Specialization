@@ -1,0 +1,32 @@
+[
+    {
+        "name": "sachin",
+        "email": "spsm182gmail.com",
+        "password": "sachin3214"
+    },
+    {
+        "name": "sameer",
+        "email": "sameer182gmail.com",
+        "password": "sameer3214"
+    },
+    {
+        "name": "suyash",
+        "email": "suyash182gmail.com",
+        "password": "suyash3214"
+    },
+    {
+        "name": "arpit",
+        "email": "arpit182gmail.com",
+        "password": "arpit3214"
+    },
+    {
+        "name": "surbhi",
+        "email": "surbhi3214@gmail.com",
+        "password": "surbhi3214"
+    },
+    {
+        "name": "angad",
+        "email": "angad3214@gmail.com",
+        "password": "angad3214"
+    }
+]

@@ -87,3 +87,5 @@
   ## Week 1: Creating a RESTful api using Node.js
   
   ## Week 2: Creating RESTful api using Express.
+  
+  ## Week 3: All about Authenticatication and Authorization
