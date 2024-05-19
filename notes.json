@@ -1,1 +1,18 @@
-[{"title":"To kill a mockingbird","author":"Harper lee"},{"title":"The great gatsby","author":"F. Scott Fitzgerald"},{"title":"The Adventure of Huckleberry Finn","author":"Mark Twain"},{"title":"To kill a mockingbird","author":"Harper lee"}]
+[
+    {
+        "title": "To kill a mockingbird",
+        "author": "Harper lee"
+    },
+    {
+        "title": "The great gatsby",
+        "author": "F. Scott Fitzgerald"
+    },
+    {
+        "title": "The Adventure of Huckleberry Finn",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "To kill a mockingbird",
+        "author": "Harper lee"
+    }
+]

@@ -69,6 +69,21 @@
   A fast, unopinionated, minimal, and flexible Node.js web application framework.
   Is middleware based and funnels incoming requests through a chain of middleware
 
+  ### Advantages of using express
+  - Fast and easy development of web application on Node.js
+  - Easy configuration and customization
+  - Easy to serve static files
+  - Support for routing in a Rest Api
+  - Easy use of middleware to implement mutliple functionalities
+  - Highly modular RESTful backend
+  
+  ### Middleware for Express
+  A software with functions that have access to: `Request object` and `Response Object` .
+  Execute during the request and the response cycle.
+  `next()` is a callback functiion that passes control to the next middleware function.
+  The Chain ends if the `next()` method in the series of middleware is not called.
+  The request will be left hanging if the req-res cycle does not end.
+
   ## Week 1: Creating a RESTful api using Node.js
   
   ## Week 2: Creating RESTful api using Express.
