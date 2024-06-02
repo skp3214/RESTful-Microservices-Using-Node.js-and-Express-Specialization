@@ -29,3 +29,36 @@ connection.connect(function (err) {
 
 `@Sachin3214mysql` is the password. You have to replace it with your password.
 ## Week 2: All About NoSQL Database Using MongoDB.
+
+### Integrating MongoDb with Node.js Using `MongoDB Node Driver`
+```js
+const { MongoClient } = require('mongodb');
+const mongoURI = "mongodb+srv://skprajapati3214:Sachin3214@backend-cluster.qfpxr0l.mongodb.net/iNoteBook?retryWrites=true&w=majority";
+
+const client = new MongoClient(mongoURI);
+const connectToMongo = () => {
+    client.connect().then(() => {
+        console.log("Connection Established SuccessFully.");
+    })
+    .catch(() => {
+        console.log("Failed to Connect with MongoDB.");
+    })
+}
+
+module.exports=connectToMongo;
+```
+### Integrating MongoDB with Node.js Using `Mongoose`
+```js
+const mongoose = require('mongoose');
+const mongoURI = "mongodb+srv://skprajapati3214:Sachin3214@backend-cluster.qfpxr0l.mongodb.net/iNoteBook?retryWrites=true&w=majority";
+
+const connectToMongo = () => {
+    mongoose.connect(mongoURI);
+
+    mongoose.connection.on('connected', () => {
+        console.log("Connected to MongoDB");
+    });
+}
+
+module.exports = connectToMongo;
+```
